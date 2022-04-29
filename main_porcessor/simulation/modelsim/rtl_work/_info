@@ -1,0 +1,734 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/14.1/procesador/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1637897596
+!i10b 1
+!s100 5<h]ZGa<JI<4I=jV=ILFT2
+I9`_Y3Tc2UIQ=WMk:e?j8_2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 adder_sv_unit
+S1
+R0
+w1637366697
+8C:/altera/14.1/procesador/adder.sv
+FC:/altera/14.1/procesador/adder.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1637897596.462000
+!s107 C:/altera/14.1/procesador/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/adder.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/altera/14.1/procesador
+valu
+R1
+R2
+!i10b 1
+!s100 =L5efJBNV4j5_ZlZV4=Dc1
+I9ikTKm8JW0A^:ANbEmlD>0
+R3
+!s105 alu_sv_unit
+S1
+R0
+w1637724884
+8C:/altera/14.1/procesador/alu.sv
+FC:/altera/14.1/procesador/alu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.902000
+!s107 C:/altera/14.1/procesador/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/alu.sv|
+!i113 1
+R5
+R6
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 FPPAJjPaA[lXH5lRQ`Uj:1
+I_c[3_MlK]6a@L@C7c`bDn2
+R3
+!s105 condcheck_sv_unit
+S1
+R0
+w1637514580
+8C:/altera/14.1/procesador/condcheck.sv
+FC:/altera/14.1/procesador/condcheck.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.084000
+!s107 C:/altera/14.1/procesador/condcheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/condcheck.sv|
+!i113 1
+R5
+R6
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 IN20_aO>kokgMa<9CZV@30
+I4WB[OVDDLgnbi>TgiZbS71
+R3
+!s105 condlogic_sv_unit
+S1
+R0
+w1637802490
+8C:/altera/14.1/procesador/condlogic.sv
+FC:/altera/14.1/procesador/condlogic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.147000
+!s107 C:/altera/14.1/procesador/condlogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/condlogic.sv|
+!i113 1
+R5
+R6
+vcontroller
+R1
+R2
+!i10b 1
+!s100 ?G][I@ZSLGT8ah[ULz5MS2
+I=ohKnGJ>TdRlh^;k@]d6A3
+R3
+!s105 controller_sv_unit
+S1
+R0
+w1637802491
+8C:/altera/14.1/procesador/controller.sv
+FC:/altera/14.1/procesador/controller.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.650000
+!s107 C:/altera/14.1/procesador/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/controller.sv|
+!i113 1
+R5
+R6
+vdatapath
+R1
+R2
+!i10b 1
+!s100 PO:=`9];4[]YeHMlJk@6M2
+I^_aJidm@1J9U<nSeDA_eC1
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1637725123
+8C:/altera/14.1/procesador/datapath.sv
+FC:/altera/14.1/procesador/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.586000
+!s107 C:/altera/14.1/procesador/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/datapath.sv|
+!i113 1
+R5
+R6
+vdecoder
+R1
+R2
+!i10b 1
+!s100 hbFCbII6b4E^6R:J0@_no0
+IC4?JWW5fYRIRK1Xc@3Clk3
+R3
+!s105 decoder_sv_unit
+S1
+R0
+w1637802748
+8C:/altera/14.1/procesador/decoder.sv
+FC:/altera/14.1/procesador/decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897595.992000
+!s107 C:/altera/14.1/procesador/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/decoder.sv|
+!i113 1
+R5
+R6
+vdivisor_N_bits
+R1
+Z7 !s110 1637897597
+!i10b 1
+!s100 N<LdHVOd6BQlClIbjZP_?2
+Ikdg0cLbNUD:maagQ[;Fn<3
+R3
+!s105 divisor_N_bits_sv_unit
+S1
+R0
+w1637529700
+8C:/altera/14.1/procesador/divisor_N_bits.sv
+FC:/altera/14.1/procesador/divisor_N_bits.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.660000
+!s107 C:/altera/14.1/procesador/divisor_N_bits.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/divisor_N_bits.sv|
+!i113 1
+R5
+R6
+ndivisor_@n_bits
+vdmem
+R1
+R7
+!i10b 1
+!s100 <jRde9LCSl_]4dCbafZ=21
+ImzXMEHc8GmAU`>>IdLPEG3
+R3
+!s105 dmem_sv_unit
+S1
+R0
+w1637837824
+8C:/altera/14.1/procesador/dmem.sv
+FC:/altera/14.1/procesador/dmem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.785000
+!s107 C:/altera/14.1/procesador/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/dmem.sv|
+!i113 1
+R5
+R6
+vextend
+R1
+R2
+!i10b 1
+!s100 YX8`EHzbPSK=YIB10i1@60
+ILQLK5^?PIeMzYoiZgYXhd3
+R3
+!s105 extend_sv_unit
+S1
+R0
+w1637365560
+8C:/altera/14.1/procesador/extend.sv
+FC:/altera/14.1/procesador/extend.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.336000
+!s107 C:/altera/14.1/procesador/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/extend.sv|
+!i113 1
+R5
+R6
+vflag_carry
+R1
+R7
+!i10b 1
+!s100 9c]eN>=e^>Y46^H46M<D62
+I?84PZ=DPOg^LBI7E=BTQS3
+R3
+!s105 flag_carry_sv_unit
+S1
+R0
+w1637529236
+8C:/altera/14.1/procesador/flag_carry.sv
+FC:/altera/14.1/procesador/flag_carry.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.473000
+!s107 C:/altera/14.1/procesador/flag_carry.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flag_carry.sv|
+!i113 1
+R5
+R6
+vflag_negativo
+R1
+R7
+!i10b 1
+!s100 akjR`nEa5?zXSc_C7=1WL0
+IgA_bI5[EiXib6IJDjiTR`0
+R3
+!s105 flag_negativo_sv_unit
+S1
+R0
+w1637529085
+8C:/altera/14.1/procesador/flag_negativo.sv
+FC:/altera/14.1/procesador/flag_negativo.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.411000
+!s107 C:/altera/14.1/procesador/flag_negativo.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flag_negativo.sv|
+!i113 1
+R5
+R6
+vflag_overflow
+R1
+R7
+!i10b 1
+!s100 NS^O^nY0eO^G2lLnFWiVX0
+Il6_QLndmZP8iAV?JKAN`92
+R3
+!s105 flag_overflow_sv_unit
+S1
+R0
+w1637529603
+8C:/altera/14.1/procesador/flag_overflow.sv
+FC:/altera/14.1/procesador/flag_overflow.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.599000
+!s107 C:/altera/14.1/procesador/flag_overflow.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flag_overflow.sv|
+!i113 1
+R5
+R6
+vflag_zero
+R1
+R7
+!i10b 1
+!s100 fLI<C?C^184=@70Tf4FSO1
+ILl[M1N34F:zd]AGUk9XX@1
+R3
+!s105 flag_zero_sv_unit
+S1
+R0
+w1637529431
+8C:/altera/14.1/procesador/flag_zero.sv
+FC:/altera/14.1/procesador/flag_zero.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.537000
+!s107 C:/altera/14.1/procesador/flag_zero.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flag_zero.sv|
+!i113 1
+R5
+R6
+vflopenr
+R1
+R2
+!i10b 1
+!s100 K[Dhl7L;W1b<fdMZ`bm?E3
+IWcTNka[HEac[FBj9[VULG3
+R3
+!s105 flopenr_sv_unit
+S1
+R0
+w1637514574
+8C:/altera/14.1/procesador/flopenr.sv
+FC:/altera/14.1/procesador/flopenr.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.275000
+!s107 C:/altera/14.1/procesador/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flopenr.sv|
+!i113 1
+R5
+R6
+vflopr
+R1
+R2
+!i10b 1
+!s100 GV<NSjC8B7Roh4DKleAhM1
+IMGM:[4Ig<;nGOPJCGKGGf2
+R3
+!s105 flopr_sv_unit
+S1
+R0
+w1637364724
+8C:/altera/14.1/procesador/flopr.sv
+FC:/altera/14.1/procesador/flopr.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.211000
+!s107 C:/altera/14.1/procesador/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/flopr.sv|
+!i113 1
+R5
+R6
+vimem
+R1
+R7
+!i10b 1
+!s100 :RJ@[RR5Oco8B`[@;G2Qi1
+I68=Ho4?mIImM<hG=1P_7=3
+R3
+!s105 imem_sv_unit
+S1
+R0
+w1637854890
+8C:/altera/14.1/procesador/imem.sv
+FC:/altera/14.1/procesador/imem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.850000
+!s107 C:/altera/14.1/procesador/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/imem.sv|
+!i113 1
+R5
+R6
+vmux2
+R1
+R2
+!i10b 1
+!s100 Ven8QPZo3T9XCDRn4W9K<1
+I]A4k^eX=Ph13E4zo3]ROV2
+R3
+!s105 mux2_sv_unit
+S1
+R0
+w1637366837
+8C:/altera/14.1/procesador/mux2.sv
+FC:/altera/14.1/procesador/mux2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.523000
+!s107 C:/altera/14.1/procesador/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/mux2.sv|
+!i113 1
+R5
+R6
+vmux_alu
+R1
+R2
+!i10b 1
+!s100 jkm9MM_Fd:GoJU19zL1PQ3
+IADI80cLBPbFKD7WFnj5LD3
+R3
+!s105 mux_alu_sv_unit
+S1
+R0
+w1637724684
+8C:/altera/14.1/procesador/mux_alu.sv
+FC:/altera/14.1/procesador/mux_alu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.839000
+!s107 C:/altera/14.1/procesador/mux_alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/mux_alu.sv|
+!i113 1
+R5
+R6
+vnegador_1_bit
+R1
+R7
+!i10b 1
+!s100 e8BB5UX;`;6G6BT=_4=Gc2
+I6oJ[5o][02SnI6j_OMnPH2
+R3
+!s105 negador_1_bit_sv_unit
+S1
+R0
+w1637527928
+8C:/altera/14.1/procesador/negador_1_bit.sv
+FC:/altera/14.1/procesador/negador_1_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.157000
+!s107 C:/altera/14.1/procesador/negador_1_bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/negador_1_bit.sv|
+!i113 1
+R5
+R6
+vnegador_N_bits
+R1
+R7
+!i10b 1
+!s100 A=NNjHRhMYCEZFZX>gBB>2
+I]gF7kTlTVh5O7d^QGzngg2
+R3
+!s105 negador_N_bits_sv_unit
+S1
+R0
+w1637528540
+8C:/altera/14.1/procesador/negador_N_bits.sv
+FC:/altera/14.1/procesador/negador_N_bits.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.219000
+!s107 C:/altera/14.1/procesador/negador_N_bits.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/negador_N_bits.sv|
+!i113 1
+R5
+R6
+nnegador_@n_bits
+voperador_and
+R1
+R7
+!i10b 1
+!s100 ecN<1i?5FC33OPizY<Q153
+IajL`gQOA>?A_]]Ej?a@eh0
+R3
+!s105 operador_and_sv_unit
+S1
+R0
+w1637528866
+8C:/altera/14.1/procesador/operador_and.sv
+FC:/altera/14.1/procesador/operador_and.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.281000
+!s107 C:/altera/14.1/procesador/operador_and.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/operador_and.sv|
+!i113 1
+R5
+R6
+voperador_or
+R1
+R7
+!i10b 1
+!s100 jCiGiQlfgB`?eRE=THMX01
+IW@SMdFGcM_`;^Gg`B_P2K3
+R3
+!s105 operador_or_sv_unit
+S1
+R0
+w1637528825
+8C:/altera/14.1/procesador/operador_or.sv
+FC:/altera/14.1/procesador/operador_or.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.346000
+!s107 C:/altera/14.1/procesador/operador_or.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/operador_or.sv|
+!i113 1
+R5
+R6
+vprocesador_arm
+R1
+R2
+!i10b 1
+!s100 J:_AJ9AgKKmkYHR`[e3VA2
+ICEJza^WX8RE>QIl1<hfYh2
+R3
+!s105 procesador_arm_sv_unit
+S1
+R0
+w1637725124
+8C:/altera/14.1/procesador/procesador_arm.sv
+FC:/altera/14.1/procesador/procesador_arm.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.712000
+!s107 C:/altera/14.1/procesador/procesador_arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/procesador_arm.sv|
+!i113 1
+R5
+R6
+vregfile
+R1
+R2
+!i10b 1
+!s100 hBT_o>UQW58V?0Uc=`;FV3
+IDaibR;72`gNOgNA8Z4HQd3
+R3
+!s105 regfile_sv_unit
+S1
+R0
+w1637365706
+8C:/altera/14.1/procesador/regfile.sv
+FC:/altera/14.1/procesador/regfile.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.398000
+!s107 C:/altera/14.1/procesador/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/regfile.sv|
+!i113 1
+R5
+R6
+vrestador_N_bits
+R1
+R7
+!i10b 1
+!s100 TVj5L?@XU[XG4=VDK1FC?0
+Il6cSPF]onDcNz^=K<<m^E1
+R3
+!s105 restador_N_bits_sv_unit
+S1
+R0
+w1637528495
+8C:/altera/14.1/procesador/restador_N_bits.sv
+FC:/altera/14.1/procesador/restador_N_bits.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.096000
+!s107 C:/altera/14.1/procesador/restador_N_bits.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/restador_N_bits.sv|
+!i113 1
+R5
+R6
+nrestador_@n_bits
+vsumador_1_bit
+R1
+R7
+!i10b 1
+!s100 6h^95;R7HIPZDj@h@OQWa1
+IVb[ThXe:HjJjcKk=C8;_M1
+R3
+!s105 sumador_1_bit_sv_unit
+S1
+R0
+w1637527146
+8C:/altera/14.1/procesador/sumador_1_bit.sv
+FC:/altera/14.1/procesador/sumador_1_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897597.031000
+!s107 C:/altera/14.1/procesador/sumador_1_bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/sumador_1_bit.sv|
+!i113 1
+R5
+R6
+vsumador_N_bits
+R1
+R2
+!i10b 1
+!s100 nWBn3@Q4=EzUATTM?>B[F1
+Ii8nLe?>?A>:IT5MUlOjYk3
+R3
+!s105 sumador_N_bits_sv_unit
+S1
+R0
+w1637527481
+8C:/altera/14.1/procesador/sumador_N_bits.sv
+FC:/altera/14.1/procesador/sumador_N_bits.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.964000
+!s107 C:/altera/14.1/procesador/sumador_N_bits.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/sumador_N_bits.sv|
+!i113 1
+R5
+R6
+nsumador_@n_bits
+vtestbench_top
+R1
+R7
+!i10b 1
+!s100 6>V`DK]z7Z[Xg1P]V0M7i3
+I9mfU[NO`<RUf8o=z3V]ib1
+R3
+!s105 testbench_top_sv_unit
+S1
+R0
+w1637641364
+8C:/altera/14.1/procesador/testbench_top.sv
+FC:/altera/14.1/procesador/testbench_top.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1637897597.723000
+!s107 C:/altera/14.1/procesador/testbench_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/testbench_top.sv|
+!i113 1
+R5
+R6
+vtop
+R1
+R2
+!i10b 1
+!s100 g]bMlSSm5d;n@:dihU@eS3
+I=7hdlaQ]@UdPY^b`FLHG@0
+R3
+!s105 top_sv_unit
+S1
+R0
+w1637724095
+8C:/altera/14.1/procesador/top.sv
+FC:/altera/14.1/procesador/top.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1637897596.777000
+!s107 C:/altera/14.1/procesador/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.1/procesador|C:/altera/14.1/procesador/top.sv|
+!i113 1
+R5
+R6
