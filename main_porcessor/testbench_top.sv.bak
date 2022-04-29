@@ -1,0 +1,10 @@
+module testbench_top();
+
+	logic clk, rst, MemWrite
+	logic [31:0] WriteData, DataAdr;
+	
+	top top_tb (clk, rst, WriteData, DataAdr, MemWrite);
+	
+endmodule
+	
+	

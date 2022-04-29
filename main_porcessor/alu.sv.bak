@@ -1,0 +1,27 @@
+module alu #(parameter N = 4)(input logic [N-1:0] a, b,
+										input logic ci,
+										input logic [3:0] selec_alu,
+										output logic [N-1:0] result,
+										output logic Neg, Z, C, V);
+	
+	logic [N-1:0] result_suma, result_resta;			
+	logic [N-1:0] result_and, result_or;
+	logic co_suma, co_resta;
+
+
+	sumador_nb #(N) sum(a, b, ci, result_suma, co_suma);
+	restador_nb #(N) rest(a, b,ci,result_resta, co_resta);
+
+	c_and #(N) cand(a, b, result_and); 
+	c_or #(N) cor(a, b, result_or); 
+
+	mux_alu #(N) Mux_Alu (result_suma, result_resta, result_and, result_or, selec_alu, result);
+
+
+	flag_negativo  fn(co_resta, selec_alu, Neg);
+	flag_carry  fC (co_suma, co_resta, selec_alu, C);
+	flag_cero #(N) fz (result, C, Z);
+	flag_overflow #(N) fv (a, b, result, selec_alu, V);
+
+					
+endmodule 
