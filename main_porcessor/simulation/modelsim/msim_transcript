@@ -1,0 +1,390 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do procesador_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/decoder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:15 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/condcheck.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/condcheck.sv 
+# -- Compiling module condcheck
+# 
+# Top level modules:
+# 	condcheck
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/condlogic.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/condlogic.sv 
+# -- Compiling module condlogic
+# 
+# Top level modules:
+# 	condlogic
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flopr.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flopenr.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/extend.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/procesador_arm.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/procesador_arm.sv 
+# -- Compiling module procesador_arm
+# 
+# Top level modules:
+# 	procesador_arm
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/top.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/mux_alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/mux_alu.sv 
+# -- Compiling module mux_alu
+# 
+# Top level modules:
+# 	mux_alu
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/sumador_N_bits.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:16 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/sumador_N_bits.sv 
+# -- Compiling module sumador_N_bits
+# 
+# Top level modules:
+# 	sumador_N_bits
+# End time: 21:33:16 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/sumador_1_bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/sumador_1_bit.sv 
+# -- Compiling module sumador_1_bit
+# 
+# Top level modules:
+# 	sumador_1_bit
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/restador_N_bits.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/restador_N_bits.sv 
+# -- Compiling module restador_N_bits
+# 
+# Top level modules:
+# 	restador_N_bits
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/negador_1_bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/negador_1_bit.sv 
+# -- Compiling module negador_1_bit
+# 
+# Top level modules:
+# 	negador_1_bit
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/negador_N_bits.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/negador_N_bits.sv 
+# -- Compiling module negador_N_bits
+# 
+# Top level modules:
+# 	negador_N_bits
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/operador_and.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/operador_and.sv 
+# -- Compiling module operador_and
+# 
+# Top level modules:
+# 	operador_and
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/operador_or.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/operador_or.sv 
+# -- Compiling module operador_or
+# 
+# Top level modules:
+# 	operador_or
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_negativo.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flag_negativo.sv 
+# -- Compiling module flag_negativo
+# 
+# Top level modules:
+# 	flag_negativo
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_carry.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flag_carry.sv 
+# -- Compiling module flag_carry
+# 
+# Top level modules:
+# 	flag_carry
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_zero.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flag_zero.sv 
+# -- Compiling module flag_zero
+# 
+# Top level modules:
+# 	flag_zero
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_overflow.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/flag_overflow.sv 
+# -- Compiling module flag_overflow
+# 
+# Top level modules:
+# 	flag_overflow
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/divisor_N_bits.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/divisor_N_bits.sv 
+# -- Compiling module divisor_N_bits
+# 
+# Top level modules:
+# 	divisor_N_bits
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/testbench_top.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/testbench_top.sv 
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/dmem.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/imem.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:33:17 on Nov 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/14.1/procesador" C:/altera/14.1/procesador/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 21:33:17 on Nov 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench_top
+# vsim -gui "+altera" -l msim_transcript -do "procesador_run_msim_rtl_verilog.do" 
+# Start time: 21:33:27 on Nov 25,2021
+# Loading sv_std.std
+# Loading work.testbench_top
+# Loading work.top
+# Loading work.procesador_arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.sumador_N_bits
+# Loading work.restador_N_bits
+# Loading work.negador_N_bits
+# Loading work.negador_1_bit
+# Loading work.operador_and
+# Loading work.operador_or
+# Loading work.mux_alu
+# Loading work.flag_negativo
+# Loading work.flag_carry
+# Loading work.flag_zero
+# Loading work.flag_overflow
+# Loading work.divisor_N_bits
+# Loading work.imem
+# Loading work.dmem
+# Loading work.sumador_1_bit
+vsim work.testbench_top
+# vsim 
+# Start time: 21:33:30 on Nov 25,2021
+# Loading sv_std.std
+# Loading work.testbench_top
+# Loading work.top
+# Loading work.procesador_arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.sumador_N_bits
+# Loading work.restador_N_bits
+# Loading work.negador_N_bits
+# Loading work.negador_1_bit
+# Loading work.operador_and
+# Loading work.operador_or
+# Loading work.mux_alu
+# Loading work.flag_negativo
+# Loading work.flag_carry
+# Loading work.flag_zero
+# Loading work.flag_overflow
+# Loading work.divisor_N_bits
+# Loading work.imem
+# Loading work.dmem
+# Loading work.sumador_1_bit
+add wave -position end  sim:/testbench_top/DataAdr
+add wave -position end  sim:/testbench_top/MemWrite
+add wave -position end  sim:/testbench_top/WriteData
+add wave -position end  sim:/testbench_top/clk
+add wave -position end  sim:/testbench_top/top_tb/ReadData
+add wave -position end  sim:/testbench_top/top_tb/dmem/RAM
+run -all

@@ -1,0 +1,23 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/mux_alu.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/alu.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/sumador_N_bits.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/sumador_1_bit.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/restador_N_bits.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/negador_1_bit.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/negador_N_bits.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/operador_and.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/operador_or.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_negativo.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_carry.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_zero.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/flag_overflow.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/divisor_N_bits.sv}
+vlog -sv -work work +incdir+C:/altera/14.1/procesador {C:/altera/14.1/procesador/testbench_alu.sv}
+
